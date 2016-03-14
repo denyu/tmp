@@ -1,0 +1,14 @@
+Ввод списка целых чисел с клавиатуры
+	
+public static void main(String[] args) throws IOException
+{
+    BufferedReader reader = new BufferedReader(new InputStreamReader(System.in) );
+    ArrayList<Integer> list = new ArrayList<Integer>();
+
+    while (true)
+    {
+        String s = reader.readLine();
+        if (s.isEmpty()) break;
+        list.add(Integer.parseInt(s));
+    }
+}
