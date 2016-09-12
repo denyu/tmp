@@ -1,0 +1,3 @@
+public static int getMinimum(List<Integer> array) {
+        // Найти минимум
+        return Collections.min(array);
